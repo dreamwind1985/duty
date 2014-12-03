@@ -70,7 +70,7 @@ def ela(start_time, leave_time):
 		else:
 		 	return u"旷工"
 	except:
-	  return EXCEPTION
+	  return u"异常"
 def open_excel(filename):
 	try:
 		data = xlrd.open_workbook(filename)
